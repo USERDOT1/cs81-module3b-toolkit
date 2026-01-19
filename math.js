@@ -9,3 +9,14 @@ function square(number){
 }
 console.log(square(4));
 
+function isEven(number){
+  if (number%2 == 0){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+console.log(isEven(15));
+console.log(isEven(2.5));
+console.log(isEven(4.0));
