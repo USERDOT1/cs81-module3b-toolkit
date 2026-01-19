@@ -27,3 +27,8 @@ function squareIsEven(number){
 for (let i = 0; i <= 20; i++){
   console.log(squareIsEven(i));
 }
+
+function timesTen(number){
+  return number*10;
+}
+console.log(timesTen(8));
