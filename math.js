@@ -20,3 +20,10 @@ function isEven(number){
 console.log(isEven(15));
 console.log(isEven(2.5));
 console.log(isEven(4.0));
+
+function squareIsEven(number){
+  return (isEven(square(number)));
+}
+for (let i = 0; i <= 20; i++){
+  console.log(squareIsEven(i));
+}
